@@ -1,8 +1,7 @@
+class HomeController {
+    async static redirect(req, res) {
 
-const redirect = async (req, res) => {
-
+    }
 }
 
-export default {
-    redirect
-}
+module.exports = HomeController;

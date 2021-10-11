@@ -9,7 +9,12 @@
   "author": "Eduvie Agada",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
   },
-  "type": "module"
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "sequelize-cli": "^6.2.0"
+  }
 }

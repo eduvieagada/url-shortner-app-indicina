@@ -1,21 +1,20 @@
 
+class ApiController {
+    async static encodeUrl (req, res) {
 
-const encodeUrl = async (req, res) => {
+    }
 
+    async static decodeUrl (req, res) {
+
+    }
+
+    async static getStatistics (req, res) {
+
+    }
+
+    async static listUrls (req, res) {
+
+    }
 }
 
-const decodeUrl = async (req, res) => {
-
-}
-
-const getStatistics = async (req, res) => {
-
-}
-
-const listUrls = async (req, res) => {
-
-}
-
-export default {
-    encodeUrl, decodeUrl, getStatistics, listUrls
-}
+module.exports = ApiController;
